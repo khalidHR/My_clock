@@ -27,6 +27,7 @@
 			drawClock();
 	}, 1000);
 
+	
 	function drawClock() {
 		drawClockFace();
 		updateClockTime();
