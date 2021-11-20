@@ -5,7 +5,6 @@
 	const ctx = canvas.getContext("2d");
 	const CLOCK_ORIGIN = canvas.width/2;
 	
-	
 	let clock = {
 		tick: Math.PI/6/5,
 		radius: (canvas.width / 2) - 25,
@@ -76,6 +75,7 @@
 		ctx.fill();
 	}
 	
+	
 	function drawClockNumbers() {
 		ctx.font = '30px Arial';
 		ctx.fillStyle = "#999";
@@ -103,15 +103,18 @@
 		clock.hour = d.getHours();
 	}
 	
+	
 	function drawSecondHand() {
 		ctx.lineWidth = 1;
 		drawLineAngle(clock.radius*0.85, clock.secAngle);
 	}
 	
+	
 	function drawMinuteHand() {
 		ctx.lineWidth = 3;
 		drawLineAngle(clock.radius*0.8, clock.minAngle);
 	}
+	
 	
 	function drawHourHand() {
 		ctx.lineWidth = 7;
