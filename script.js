@@ -27,7 +27,8 @@
 	}
 	
 	
-	setInterval(function() {
+	setInterval(function()
+		    {
 			clearClock();
 			drawClock();
 	}, 1000);
