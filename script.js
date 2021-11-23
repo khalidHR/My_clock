@@ -42,6 +42,7 @@
 		drawHourHand();
 	}
 	
+	
 	function drawClockFace() {
 		drawClockBorder();
 		drawClockTickmarks();
