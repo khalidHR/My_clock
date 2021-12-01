@@ -10,6 +10,7 @@
 	
 	
 	let clock = {
+		
 		tick: Math.PI/6/5,
 		radius: (canvas.width / 2) - 25,
 		sec: 0,
