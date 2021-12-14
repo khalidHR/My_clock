@@ -25,6 +25,7 @@
 		hour: 0,
 		get secAngle() {
 			return this.sec * this.tick;
+			
 		},
 		get minAngle() {
 			return (this.min * this.tick) + (this.sec * this.tick / 60);
