@@ -4,19 +4,9 @@
 	
 	
 	"use strict";
-	
-	
-	
-	
-	
-	
 	const canvas = document.getElementById("canvas");
 	const ctx = canvas.getContext("2d");
 	const CLOCK_ORIGIN = canvas.width/2;
-	
-	
-	
-	
 	let clock = {
 		
 		tick: Math.PI/6/5,
