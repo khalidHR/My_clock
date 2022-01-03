@@ -23,6 +23,7 @@
 			return (this.min * this.tick) + (this.sec * this.tick / 60);
 		},
 		
+		
 		get hourAngle() {
 			return (this.hour * 5 * this.tick) + (5 * this.tick * this.min / 60);
 		}
