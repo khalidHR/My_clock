@@ -1,5 +1,6 @@
 (function(){
 	
+	
 	"use strict";
 	const canvas = document.getElementById("canvas");
 	const ctx = canvas.getContext("2d");
@@ -7,6 +8,7 @@
 	let clock = {
 
 
+		
 		tick: Math.PI/6/5,
 		radius: (canvas.width / 2) - 25,
 		sec: 0,
